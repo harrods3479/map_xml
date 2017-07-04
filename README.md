@@ -3,7 +3,6 @@
 ## 実行方法
 
 ``` 実行コマンド
-ruby pg/data.rb 読み込むcsvファイル名 出力先ファイル名 {up or down}
 ruby pg/convert.rb 読み込むcsvファイル名(乗車) 読み込むcsvファイル名(降車) 出力先ファイル名
 ```
 
@@ -23,4 +22,10 @@ ruby pg/convert.rb data/togakushi_up.csv data/togakushi_down.csv output/togakush
   <marker category="Attr_06" lat="36.651215" lng="138.181782" contact="長野県庁" data="降車2人"/>
   <marker category="Attr_06" lat="36.656608" lng="138.182353" contact="信大教育学部" data="降車2人"/>
 </markers>
+```
+
+## 旧
+
+``` 実行コマンド
+ruby pg/convert_sep.rb 読み込むcsvファイル名 出力先ファイル名 {up or down}
 ```
